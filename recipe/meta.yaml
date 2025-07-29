@@ -1,5 +1,5 @@
 {% set name = "zmq-anyio" %}
-{% set version = "0.3.9" %}
+{% set version = "0.3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zmq_anyio-{{ version }}.tar.gz
-  sha256: 7dc0cdbf039834f16c0dc6412b560e689ca406e4d8b93cb94e0fa8763a87e947
+  sha256: 7d30ff2a7a16ff8d3cb648d2f5f664595b7e35e0fa0d9e831cb9b343bc4b449a
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - python >={{ python_min }}
     - anyio >=4.8.0,<5.0.0
     - anyioutils >=0.7.1,<0.8.0
-    - pyzmq >=26.0.0,<27.0.0
+    - pyzmq >=26.0.0,<28.0.0
 
 test:
   imports:
