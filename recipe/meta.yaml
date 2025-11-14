@@ -1,5 +1,5 @@
 {% set name = "zmq-anyio" %}
-{% set version = "0.3.10" %}
+{% set version = "0.3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zmq_anyio-{{ version }}.tar.gz
-  sha256: 7d30ff2a7a16ff8d3cb648d2f5f664595b7e35e0fa0d9e831cb9b343bc4b449a
+  sha256: d7fbb6410c73ab32f80f53098b4663fc532845cc7249bb376592752344bbcf16
 
 build:
   noarch: python
