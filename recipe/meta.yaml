@@ -40,7 +40,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: Asynchronous API for ZMQ using AnyIO
-  dev_url: https://github.com/davidbrochart/zmq-anyio
+  dev_url: https://github.com/QuantStack/zmq-anyio
 
 extra:
   recipe-maintainers:
