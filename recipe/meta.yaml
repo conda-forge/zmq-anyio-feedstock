@@ -35,7 +35,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/davidbrochart/zmq-anyio
+  home: https://github.com/QuantStack/zmq-anyio
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
