@@ -1,5 +1,5 @@
 {% set name = "zmq-anyio" %}
-{% set version = "0.3.10" %}
+{% set version = "0.3.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zmq_anyio-{{ version }}.tar.gz
-  sha256: 7d30ff2a7a16ff8d3cb648d2f5f664595b7e35e0fa0d9e831cb9b343bc4b449a
+  sha256: 2c560cfeaf1cb7285a9bda4c490a15b3dedf7749d78652bc6c1ecae09a8581dd
 
 build:
   noarch: python
@@ -35,12 +35,12 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/davidbrochart/zmq-anyio
+  home: https://github.com/QuantStack/zmq-anyio
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: Asynchronous API for ZMQ using AnyIO
-  dev_url: https://github.com/davidbrochart/zmq-anyio
+  dev_url: https://github.com/QuantStack/zmq-anyio
 
 extra:
   recipe-maintainers:
