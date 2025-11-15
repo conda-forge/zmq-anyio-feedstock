@@ -3,13 +3,13 @@ About zmq-anyio-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zmq-anyio-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/davidbrochart/zmq-anyio
+Home: https://github.com/QuantStack/zmq-anyio
 
 Package license: BSD-3-Clause
 
 Summary: Asynchronous API for ZMQ using AnyIO
 
-Development: https://github.com/davidbrochart/zmq-anyio
+Development: https://github.com/QuantStack/zmq-anyio
 
 Current build status
 ====================
